@@ -4,6 +4,6 @@ function calculaResultado(a,b){
     return extenso(a*b)
 }
 
-nodule.exports = {
+module.exports = {
     calculaResultado
 }
