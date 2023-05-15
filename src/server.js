@@ -1,6 +1,5 @@
-const extenso = require('extenso')
+const {calculaResultado} = require('./calculadora')
 
-const soma = 10+10
-const resultado = extenso(soma)
+const resultado = calculadora.calculaResultado(10, 15)
 
 console.log('O Resultado é:', resultado)
